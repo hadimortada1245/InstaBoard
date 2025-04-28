@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import DashboardHeader from '@/components/DashboardHeader';
 import { Button } from '@/components/ui/button';
@@ -12,7 +11,7 @@ const Dashboard: React.FC = () => {
   const [posts, setPosts] = useState<Post[]>([
     {
       id: '1',
-      imageUrl: 'https://images.unsplash.com/photo-1610222034376-8dd1149e0e60',
+      imageUrl: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e',
       caption: 'Beautiful sunset at the beach #sunset #beach #summer',
       likes: 243,
       comments: 15,
@@ -21,7 +20,7 @@ const Dashboard: React.FC = () => {
     },
     {
       id: '2',
-      imageUrl: 'https://images.unsplash.com/photo-1576828831022-ca381280481a',
+      imageUrl: 'https://images.unsplash.com/photo-1511920170033-f8396924c348',
       caption: 'Morning coffee vibes ☕️ #coffee #morning #routine',
       likes: 187,
       comments: 8,
@@ -30,7 +29,7 @@ const Dashboard: React.FC = () => {
     },
     {
       id: '3',
-      imageUrl: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438',
+      imageUrl: 'https://images.unsplash.com/photo-1610222034376-8dd1149e0e60',
       caption: 'City lights at night 🌃 #cityscape #night #urban',
       likes: 532,
       comments: 32,
@@ -40,7 +39,7 @@ const Dashboard: React.FC = () => {
     },
     {
       id: '4',
-      imageUrl: 'https://images.unsplash.com/photo-1675789652972-ee2d91ae0830',
+      imageUrl: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe',
       caption: 'Weekend hike with friends #nature #hiking #adventure',
       likes: 421,
       comments: 24,
@@ -49,7 +48,7 @@ const Dashboard: React.FC = () => {
     },
     {
       id: '5',
-      imageUrl: 'https://images.unsplash.com/photo-1604431696980-07e518647aec',
+      imageUrl: 'https://images.unsplash.com/photo-1551218808-94e220e084d2',
       caption: 'Trying out new recipes in the kitchen 👨‍🍳 #cooking #foodie',
       likes: 298,
       comments: 19,
@@ -59,7 +58,7 @@ const Dashboard: React.FC = () => {
     },
     {
       id: '6',
-      imageUrl: 'https://images.unsplash.com/photo-1682687982502-1529b3b4a85b',
+      imageUrl: 'https://images.unsplash.com/photo-1556740749-887f6717d7e4',
       caption: 'Working from the new cafe downtown #workremote #coffee',
       likes: 176,
       comments: 11,
