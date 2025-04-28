@@ -33,7 +33,6 @@ const LoginForm: React.FC = () => {
     
     setIsLoading(true);
     
-    // Simulate API call
     setTimeout(() => {
       setIsLoading(false);
       toast.success("Login successful!");

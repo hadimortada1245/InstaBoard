@@ -55,9 +55,8 @@ const CreatePostModal: React.FC<CreatePostModalProps> = ({ open, onOpenChange, o
 
     setIsUploading(true);
 
-    // Simulate API upload
     setTimeout(() => {
-      // Create a mock post
+
       const newPost: Post = {
         id: `post-${Date.now()}`,
         imageUrl: mediaPreview as string,
